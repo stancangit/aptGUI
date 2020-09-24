@@ -10,6 +10,11 @@ To install aptGUI simply run:<br>
 To run aptGUI run:<br>
 <code>aptgui</code>
 
+<h1>Removal</h1>
+To remove aptGUI simply run:<br>
+<code>chmod +x remove.sh</code><br>
+<code>sudo ./remove.sh</code>
+
 <h1>Nice to knows</h1>
 The image file provided can be used if creating a shortcut
 
