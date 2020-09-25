@@ -5,6 +5,7 @@ import tkinter as tk
 window = Tk()
 window.title("Welcome to aptGUI")
 window.geometry('225x80')
+window.config(bg="#00bbc2")
 package = tk.StringVar()
 sudo = tk.StringVar()
 txt = Entry(window,width=10,textvariable=package)
