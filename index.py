@@ -16,10 +16,9 @@ def clicked():
     subprocess.call(["pkexec", "apt", "install", package.get(), "-y"])
 def clicked1():
     subprocess.call(["pkexec", "apt","remove", package.get(), "-y"])
-btn = Button(window, bg = "#42f498", bd = 0, text="run apt install", command=clicked)
+btn = Button(window, bg = "#42f498", highlightthickness=0, text="run apt install", command=clicked)
 btn.grid(column=1, row=0)
-btn = Button(window, text="run apt remove", bg = "#42f498", bd = 0, command=clicked1)
+btn = Button(window, text="run apt remove", bg = "#42f498", highlightthickness=0, command=clicked1)
 btn.grid(column=1, row=1)
 window.mainloop()
-
 
