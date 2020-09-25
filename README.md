@@ -1,4 +1,4 @@
-<img src="readmeimg.png" alt="The interface" width="221" height="116"> 
+<img src="https://raw.githubusercontent.com/stancangit/Mejusthostingshit/master/readmeimg.png" alt="The interface" width="221" height="116"> 
 <h1>aptGUI</h1>
 Welcome to aptGUI, a graphical interface for apt written in python
 
