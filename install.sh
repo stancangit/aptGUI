@@ -2,7 +2,7 @@
 echo "installing dependencies"
 sudo apt install python3-tk
 echo "installing"
-mkdir ~/.aptgui
+mkdir $HOME/.aptgui
 echo "copying files"
 cp index.py ~/.aptgui
 cp aptgui /usr/bin
